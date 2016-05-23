@@ -14,7 +14,7 @@
 * [Remote Server](#remote-server)
 * [Directory structure](#directory-structure)
 * [wp-config.php](#wp-configphp)
-* [Commands]
+* [Commands](#commands)
   * [View all available commands](#view-all-available-commands)
   * [Check if everything is fine](#check-if-everything-is-fine)
   * [Deployment and Rollback](#deployment-and-rollback)
