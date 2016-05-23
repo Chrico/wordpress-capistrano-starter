@@ -9,7 +9,7 @@
   * [Install Composer](#install-composer)
 * [Configure Capistrano](#configure-capistrano)
   * [Basic configuration](#basic-configuration)
-  * [Environment](#envoirments)
+  * [Environment](#environment)
 * [Local Development](#local-development)
 * [Remote Server](#remote-server)
 * [Directory structure](#directory-structure)
