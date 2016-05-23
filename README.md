@@ -1,5 +1,25 @@
 # WordPress Capistrano Starter
 
+## Table of Contents
+
+* [Requirements](#requirements)
+  * [Install Ruby](#install-ruby)
+  * [Install Capistrano](#install-capistrano)
+  * [Install Bundler](#install-bundler)
+  * [Install Composer](#install-composer)
+* [Configure Capistrano](#configure-capistrano)
+  * [Basic configuration](#basic-configuration)
+  * [Envoirments](#envoirments)
+* [Local Development](#local-development)
+* [Remote Server](#remote-server)
+* [Directory structure](#directory-structure)
+* [wp-config.php](#wp-configphp)
+* [Commands]
+  * [View all available commands](#view-all-available-commands)
+  * [Check if everything is fine](#check-if-everything-is-fine)
+  * [Deployment and Rollback](#deployment-and-rollback)
+  
+
 ## Requirements
 
 * Ruby >= 2.0
@@ -37,6 +57,12 @@ $ gem install bundler
 $ bundler -v
 Bundler version 1.11.2
 ```
+
+### Install Composer
+[Composer](https://getcomposer.org/) is a Dependency Manager for PHP.
+
+* Howto install https://getcomposer.org/download/
+
 
 ## Configure Capistrano
 
