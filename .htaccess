@@ -1,0 +1,4 @@
+# Deny Access to Capistrano-Files
+<FilesMatch "(composer.json|composer.lock|Capfile|Gemfile|Gemfile.lock|README.md|REVISION|\.rb$)">
+  Deny from All
+</FilesMatch>

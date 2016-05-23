@@ -1,0 +1,34 @@
+{
+  "name": "chrico/wordpress-capistrano-starter",
+  "description": "Starterkit to deploy your `wp-content`-directory.",
+  "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "composer/installers": "1.*"
+  },
+  "require-dev": {
+    "php": ">=5.4",
+    "wpackagist-plugin/loco-translate": "1.5.5",
+    "wpackagist-plugin/p3-profiler": "1.5.3.9",
+    "wpackagist-plugin/theme-check": "20151211.1"
+  },
+  "extra": {
+    "installer-paths": {
+      "mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    }
+  }
+}

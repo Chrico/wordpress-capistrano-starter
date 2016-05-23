@@ -1,0 +1,14 @@
+/languages/
+/backup*/
+/blogs.dir/
+/cache/
+/upgrade/
+/uploads/
+/plugins/
+/themes/
+composer.lock
+/sunrise.php
+cache*.php
+
+# exclued vendor from
+vendor/
