@@ -5,6 +5,8 @@
 /upgrade/
 /uploads/
 /plugins/
+/mu-plugins/
+!/mu-plugins/composer-autoload.php
 /themes/
 composer.lock
 /sunrise.php
