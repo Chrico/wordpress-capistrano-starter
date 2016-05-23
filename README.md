@@ -9,7 +9,7 @@
   * [Install Composer](#install-composer)
 * [Configure Capistrano](#configure-capistrano)
   * [Basic configuration](#basic-configuration)
-  * [Envoirments](#envoirments)
+  * [Environment](#envoirments)
 * [Local Development](#local-development)
 * [Remote Server](#remote-server)
 * [Directory structure](#directory-structure)
@@ -69,8 +69,8 @@ Bundler version 1.11.2
 ### Basic configuration
 Go to `config/deploy.rb` and configure your `application`-name and `repo_url`.
 
-### Envoirments
-To configure your envoirments, go to `config/deploy/staging.rb`. The file name equals to your deploy command `cap {envoirment} deploy` e.G. `cap staging deploy`).
+### Environment
+To configure your environment, go to `config/deploy/staging.rb`. The file name equals to your deploy command `cap {environment} deploy` e.G. `cap staging deploy`).
  
 Set your `host`, `user` and `webdir` which is the relative path to your web project on remote server.
 
@@ -127,7 +127,7 @@ $ cap -T
 ### Check if everything is fine
 
 ```ruby
-cap {envoirment} deploy:check
+cap {environment} deploy:check
 ```
 
 What happens:
@@ -139,7 +139,7 @@ What happens:
 ### Deployment and Rollback
 
 ```ruby
-$ cap {envoirment} deploy
+$ cap {environment} deploy
 ```
 
 What happens:
@@ -155,7 +155,7 @@ What happens:
 9. Cleanup old releases - by default the last 5 releases.
 
 ```ruby
-$ cap {envoirment} deploy:rollback
+$ cap {environment} deploy:rollback
 ```
 
 What happens:
